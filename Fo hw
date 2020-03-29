@@ -1,0 +1,21 @@
+#include<iostream>
+using namespace std;
+
+
+int main()
+{
+ int x;
+ int n;
+ int sr=1;
+ int index=1;
+ int pow=1;
+ cin>>x>>n;
+ 
+ while (index<=n){
+  pow*=x;
+  sr+=pow;
+  i++;
+}
+cout<<sr;
+return 0;
+}
